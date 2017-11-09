@@ -17,7 +17,7 @@ static void sigh(int sign) {
   }
 
   if(sign == SIGUSR1) {
-    printf("\npid:\t%d", getpid());
+    printf("\n*pid:\t%d", getpid());
   }
 }
 
